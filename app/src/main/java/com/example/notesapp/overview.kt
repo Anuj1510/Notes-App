@@ -1,0 +1,17 @@
+/*main activity ko matlab hai sirf view model se...aab iska sirf yahi kaam hai ki data ko kese dikhana hai
+        clicks kese handle krna hai.
+
+        hamne main activity mai view model banaya... aab view model ka kaam hai repository se data leke aana...
+        jo bhi main activity ko cheeze chahiye wo saari view model pe accessible hai isliye hamne view model mai
+live data banaya hai taaki hamari activity usse obsereve kr sake aur agr kuch data change hoga to hamari activity
+ko pata chal jaayega. Notes ko access krne ke liye hamne banaya repository...usko access krne ke liye hamne
+banaya dao or usko access krne ke liye hamne banaya database.
+
+repository ka kaam tha data ko leke aana...usme bhi hamne live data banaya hai jisse view model observe kr raha hai
+
+jo bhi operation room ke andar hote hai wo dao dekhta hai
+
+jo delete and insert ke function hai wo hamne phele dao mai banaye phir repository mai and then phir in view model
+mai
+
+       */
